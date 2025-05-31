@@ -6,13 +6,11 @@ body {
   background: #fff8f8;
   color: #4b2e2e;
 }
-
 h1 {
   text-align: center;
   margin-top: 2rem;
   color: #d16e8d;
 }
-
 .card-grid {
   display: flex;
   flex-wrap: wrap;
@@ -20,7 +18,6 @@ h1 {
   gap: 2rem;
   padding: 2rem;
 }
-
 .card {
   width: 180px;
   height: 220px;
@@ -37,21 +34,9 @@ h1 {
   font-weight: bold;
   transition: transform 0.3s ease;
 }
-
 .card:hover {
   transform: scale(1.05);
 }
-
-.heart-center {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 2rem;
-  color: #f5a1bb;
-  text-align: center;
-}
-
 .glow {
   background: radial-gradient(circle, #ffc0cb 0%, transparent 70%);
   width: 300px;
@@ -63,7 +48,6 @@ h1 {
   transform: translate(-50%, -50%);
   z-index: 0;
 }
-
 .rotate-text {
   position: absolute;
   top: 20%;
@@ -74,7 +58,6 @@ h1 {
   animation: spin 12s linear infinite;
   transform-origin: center;
 }
-
 @keyframes spin {
   0% { transform: translate(-50%, -50%) rotate(0deg); }
   100% { transform: translate(-50%, -50%) rotate(360deg); }

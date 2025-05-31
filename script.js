@@ -1,1 +1,1 @@
-// Placeholder JS file
+// JS for interactivity
